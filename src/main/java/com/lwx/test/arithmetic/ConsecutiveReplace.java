@@ -27,7 +27,9 @@ public class ConsecutiveReplace implements StringProcessor {
             }
         }
         if (count >= 3) {
-            output.append((char) (prev - 1));
+            if(prev != 'a'){
+                output.append((char) (prev - 1));
+            }
         } else {
             for (int j = 0; j < count; j++) {
                 output.append(prev);

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class replaceDuplicateString {
     public static void main(String[] args) {
-        String input = "abcccbad";
+        String input = "aaa";
 /*        Scanner scanner = new Scanner(System.in);
         String input = "";
         if (scanner.hasNextLine()) {
